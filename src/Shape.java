@@ -8,7 +8,7 @@ public class Shape {
     public double perimeter() {
         double perimeter = 0;
         int numPoints = points.length;
-//comment.
+//comment.x
         for (int i = 0; i < numPoints; i++) {
             Point cPoint = points[i];
             Point nextPoint = points[(i + 1) % numPoints];
