@@ -10,7 +10,7 @@ public class MyApplication {
         String filePath = "C:\\Users\\acer\\IdeaProjects\\Zhass\\src\\coordinates";
         try {
             List<Point> pointsList = readPointsFromFile(filePath);
-//comment
+//comment.
             Point[] points = pointsList.toArray(new Point[0]);
 
 
