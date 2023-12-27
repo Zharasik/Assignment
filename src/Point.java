@@ -6,7 +6,7 @@ public class Point {
         this.x = x;
         this.y = y;
     }
-
+//comment
     public double distanceTo(Point destination) {
         double deltaX = destination.x - this.x;
         double deltaY = destination.y - this.y;
